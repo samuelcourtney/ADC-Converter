@@ -1,13 +1,8 @@
 /*    
  *     
  *     
-        Samuel Courtney 
-        CWID: 11682010  
-
-          Lab Assignment 5 & 6
-
-          Assignment Description:
-            This lab assignment prompts the user that he/she has 4 seconds to give input. With each input, the timer should reset to zero.
+Description:
+            The program prompts the user that he/she has 4 seconds to give input. With each input, the timer should reset to zero.
             If an input is not provided by the 4 second time interval, the system will reset. Input of 'a, b, and c' will be accepted. All other inputs
             will reset the WDT, but display that they are invalid. If a 'a' is pressed, the program will start a set of ADC conversions. 
             The system will then convert the analog values to digital 30 times and report the avg conversion time. If 'b' is pressed, this will 
